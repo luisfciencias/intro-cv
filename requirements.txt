@@ -6,3 +6,4 @@ scikit-image
 PyYAML==5.1.2
 tensorflow==1.13.1
 Keras==2.2.4
+opencv-python
