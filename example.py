@@ -21,9 +21,9 @@ class ConfigParams(Config):
 
 
 # replicate the model for pure inference
-rcnn_model = MaskRCNN(mode='inference', model_dir='./', config=ConfigParams())
+rcnn_model = MaskRCNN(mode='inference', model_dir='models/', config=ConfigParams())
 # model weights input
-rcnn_model.load_weights('mask_rcnn_coco.h5', by_name=True)
+rcnn_model.load_weights('models/mask_rcnn_coco.h5', by_name=True)
 
 # single image input
 path_to_image = sys.argv[1]
