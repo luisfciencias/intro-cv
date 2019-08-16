@@ -29,3 +29,7 @@ pip show mask-rcnn
 pip freeze
 ```
 
+To run the Mask-RCNN example:
+```bash
+python example.py /path/to/your/image.jpg
+```
