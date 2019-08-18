@@ -24,6 +24,8 @@ class ConfigParams(Config):
 rcnn_model = MaskRCNN(mode='inference', model_dir='models/', config=ConfigParams())
 # model weights input
 rcnn_model.load_weights('models/mask_rcnn_coco.h5', by_name=True)
+path_weights_file = 'models/mask_rcnn_coco.h5'
+rcnn_model.load_weights(path_weights_file, by_name=True)
 
 # single image input
 path_to_image = sys.argv[1]
