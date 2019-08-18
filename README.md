@@ -33,3 +33,7 @@ To run the Mask-RCNN example:
 ```bash
 python example.py /path/to/your/image.jpg
 ```
+
+To obtain the architecture and weights file go to the
+google drive for this particular project, ask Luis for
+details.
