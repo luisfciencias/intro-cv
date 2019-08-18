@@ -23,7 +23,10 @@ class ConfigParams(Config):
 # replicate the model for pure inference
 rcnn_model = MaskRCNN(mode='inference', model_dir='models/', config=ConfigParams())
 # model weights input
+<<<<<<< HEAD
 rcnn_model.load_weights('models/mask_rcnn_coco.h5', by_name=True)
+=======
+>>>>>>> 2ffc4581f4632ec494d19a7af0f5912e7482a631
 path_weights_file = 'models/mask_rcnn_coco.h5'
 rcnn_model.load_weights(path_weights_file, by_name=True)
 
