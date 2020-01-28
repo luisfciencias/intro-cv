@@ -4,6 +4,6 @@ matplotlib
 pandas
 scikit-image
 PyYAML==5.1.2
-tensorflow==1.13.1
+tensorflow==1.15.2
 Keras==2.2.4
 opencv-contrib-python
